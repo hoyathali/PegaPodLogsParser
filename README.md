@@ -1,4 +1,5 @@
 # PegaPodLogsParser
+Note: This is a personal project and not official tool from Pega 
 
 In the recent times, log of pega applications are deployed on kubernetes env.
 
