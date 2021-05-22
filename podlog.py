@@ -45,7 +45,7 @@ def format(brace,size,text):
         output=output+')'
     return output
 def writeAlerts(file,message):
-    file.write(message)
+    file.write(message+"\n")
 
 def writeRules(file,time,threadname,pegathread,tenantid,app,loggername,level,userid,message,exceptionclass,exceptionmessage,stacktrace):
     output=""
